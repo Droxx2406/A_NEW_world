@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-image: url('landscape.png');
+    background-size: cover;
+  }
+  
+  #menu-inicio {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  #menu-inicio h1 {
+    font-size: 36px;
+  }
+  
+  #menu-inicio button {
+    margin-top: 24px;
+    padding: 12px 24px;
+    font-size: 24px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #juego {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  
+  #personaje {
+    width: 50px;
+    height: 50px;
+    background-image: url('pixil-drawing(1).gif');
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  #moneda {
+    width: 30px;
+    height: 30px;
+    background-image: url('brick.png');
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+  #contador-monedas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 8px;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .oculto {
+    display: none;
+  }
+  
